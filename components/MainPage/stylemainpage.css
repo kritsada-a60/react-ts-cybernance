@@ -23,16 +23,11 @@ div.iBannerFix {
 }
 
 div.iNote {
-  height: 35vh;
-  position: fixed;
-  left: 0px;
-  bottom: 0px;
-  width: 90%;
-  color: black;
-  z-index: 99;
-  margin: 5vh 5vw;
-  display: flex;
   justify-content: center;
+  line-height: 1vh;
+  text-align: center;
+  font-size: 1.125rem;
+  margin: 5vh 1vw;
 }
 
 div.iNote2 {

@@ -4,6 +4,8 @@ import liff from '@line/liff';
 import Dropdown from 'react-dropdown';
 import 'react-dropdown/style.css';
 import { useNavigate } from 'react-router-dom';
+import Logo from '../../Image/QR.png';
+import logo1 from '../../Image/QR.png';
 
 const options = ['เริ่มทันทีที่ชำระเงิน', 'เริ่ม 00:00:00 ของวันถัดไป'];
 const defaultOption = options[0];
@@ -14,21 +16,12 @@ const MainPage3 = () => {
   const handleClickBack = () => navigate('/mainpay');
   return (
     <div style={{ marginLeft: '5vw' }}>
-      <h1>Select Start time</h1>
-      <p>เลือกเวลาที่คุณต้องการเริ่มใช้งาน</p>
-      <Dropdown options={options} placeholder="กรุณาเลือก" />
-      <div className="iNote2">
-        <h4>หมายเหตุ</h4>
-        <p className="myNote">ระบบจะตัดรอบเวลาทุกๆ 00:00 น.</p>
-        <p className="myNote">
-          จึงเรียนมาเพื่อให้ผู้ใช้งานทราบว่าหากผู้ใช้งานซื้อบริการ
-        </p>
-        <p className="myNote">Package ณ เวลา 23.00 น. ระบบจะนับว่าเป็น 1 วัน</p>
-        <p className="myNote">
-          ซึ่งเหลือเวลาเพียง 1 ชั่วโมงระบบก็จะนับว่าเป็น 1 วัน
-        </p>
-        <p className="myNote">ตามที่ชี้แจงไว้ ขอบคุณคะ</p>
+      <div className="iNote">
+        <h4>Signal</h4>
+        <p>M4 - ส่งข้อความทุกๆ 15 นาที</p>
       </div>
+      <img src={Logo} />
+      <Dropdown options={options} placeholder="กรุณาเลือก" />
       <div className="iBannerFix">
         <button
           className="iBack"
