@@ -1,0 +1,74 @@
+h1,
+p {
+  font-family: Lato;
+}
+
+p.myNote {
+  font-family: Lato;
+  padding: 0.1vh 1vw;
+  line-height: 1vh;
+}
+
+div.iBannerFix {
+  height: 10vh;
+  position: fixed;
+  left: 0px;
+  bottom: 0px;
+  width: 100%;
+  color: black;
+  z-index: 99;
+  margin: 5vh 1vw;
+  display: flex;
+  justify-content: center;
+}
+
+div.iNote {
+  height: 35vh;
+  position: fixed;
+  left: 0px;
+  bottom: 0px;
+  width: 90%;
+  color: black;
+  z-index: 99;
+  margin: 5vh 5vw;
+  display: flex;
+  justify-content: center;
+}
+
+div.iNote2 {
+  height: 43vh;
+  position: fixed;
+  left: 0vw;
+  bottom: 0vw;
+  width: 90%;
+  color: black;
+  z-index: 99;
+  margin: 1vh 5vw 1vh 5vw;
+  display: inline;
+  justify-content: center;
+  text-align: center;
+}
+
+button.iBack {
+  background-color: #ffffff;
+  color: black;
+  margin: 0vh 1vw;
+  width: 41.984vw;
+  height: 7.94vh;
+  border: none;
+  cursor: pointer;
+  box-shadow: 3px 3px 5px grey;
+  font-size: 1.125rem;
+}
+
+button.iNext {
+  background-color: #f8c854;
+  color: white;
+  margin: 0vh 1vw;
+  width: 41.984vw;
+  height: 7.94vh;
+  border: none;
+  cursor: pointer;
+  box-shadow: 3px 3px 5px grey;
+  font-size: 1.125rem;
+}
