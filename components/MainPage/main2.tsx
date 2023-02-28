@@ -5,7 +5,7 @@ import Dropdown from 'react-dropdown';
 import 'react-dropdown/style.css';
 import { useNavigate } from 'react-router-dom';
 
-const options = ['1 วัน $10', '15 วัน แถม 2 วัน', '20 วัน แถม 5 วัน'];
+const options = ['1 วัน $10', '15 วัน แถม 2 วัน $150', '20 วัน แถม 5 วัน $200'];
 const defaultOption = options[0];
 
 const MainPage2 = () => {
