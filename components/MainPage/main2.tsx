@@ -13,10 +13,12 @@ const MainPage2 = () => {
   const handleClick = () => navigate('/mainpay');
   const handleClickBack = () => navigate('/');
   return (
-    <div style={{ marginLeft: '5vw' }}>
-      <h1>Signal M4</h1>
-      <p>เลือก Package ที่คุณต้องการ</p>
-      <Dropdown options={options} placeholder="กรุณาเลือก" />
+    <div style={{ marginLeft: '0vw' }}>
+      <div style={{ marginLeft: '5vw' }}>
+        <h1>Signal M4</h1>
+        <p>เลือก Package ที่คุณต้องการ</p>
+        <Dropdown options={options} placeholder="กรุณาเลือก" />
+      </div>
       <div className="iBannerFix">
         <button
           className="iBack"

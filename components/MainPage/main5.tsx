@@ -8,16 +8,26 @@ import { useNavigate } from 'react-router-dom';
 const options = ['เริ่มทันทีที่ชำระเงิน', 'เริ่ม 00:00:00 ของวันถัดไป'];
 const defaultOption = options[0];
 
-const MainPage3 = () => {
+const MainPage5 = () => {
   const navigate = useNavigate();
-  const handleClick = () => navigate('/mainqr');
-  const handleClickBack = () => navigate('/mainprice');
+  const handleClick = () => navigate('/history');
+  const handleClickBack = () => navigate('/');
   return (
     <div style={{ marginLeft: '0vw' }}>
-      <div style={{ marginLeft: '5vw' }}>
-        <h1>Select Start time</h1>
-        <p>เลือกเวลาที่คุณต้องการเริ่มใช้งาน</p>
-        <Dropdown options={options} placeholder="กรุณาเลือก" />
+      <div className="iNote">
+        <h4>Signal</h4>
+        <p>M4 - ส่งข้อความทุกๆ 15 นาที</p>
+      </div>
+      <h1 className="mySuccess">ชำระเงินเสร็จสิ้น</h1>
+      <div className="iNote">
+        <h4>Package</h4>
+        <p>15 วัน แถม 2 วัน</p>
+      </div>
+      <div className="iNote3">
+        <p>เริ่มต้นใช้งานทันที</p>
+        <h2>2023/01/05 22:20:12</h2>
+        <p>สิ้นสุด</p>
+        <h2>2023/01/22 23:59:59</h2>
       </div>
       <div className="iNote2">
         <h4>หมายเหตุ</h4>
@@ -33,24 +43,16 @@ const MainPage3 = () => {
       </div>
       <div className="iBannerFix">
         <button
-          className="iBack"
+          className="iBack2"
           onClick={() => {
             handleClickBack();
           }}
         >
-          กลับ
-        </button>
-        <button
-          className="iNext"
-          onClick={() => {
-            handleClick();
-          }}
-        >
-          ต่อไป
+          กลับสู่หน้าหลัก
         </button>
       </div>
     </div>
   );
 };
 
-export default MainPage3;
+export default MainPage5;

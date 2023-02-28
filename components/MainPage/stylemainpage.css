@@ -2,11 +2,41 @@ h1,
 p {
   font-family: Lato;
 }
+h1.myPrice {
+  font-family: Lato;
+  color: #8cabd8;
+  border: 0.5vw solid #8cabd8;
+  border-style: dashed;
+  /* width: 35vw; */
+  text-align: center;
+  display: block;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+
+h1.mySuccess {
+  font-family: Lato;
+  color: #51d456;
+  /* width: 35vw; */
+  text-align: center;
+  display: block;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
 
 p.myNote {
   font-family: Lato;
   padding: 0.1vh 1vw;
   line-height: 1vh;
+}
+.center {
+  text-align: center;
+  display: block;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
 }
 
 div.iBannerFix {
@@ -30,8 +60,16 @@ div.iNote {
   margin: 5vh 1vw;
 }
 
+div.iNoteQR {
+  justify-content: center;
+  line-height: 1vh;
+  text-align: center;
+  font-size: 1.125rem;
+  margin: 1vh 1vw;
+}
+
 div.iNote2 {
-  height: 43vh;
+  height: 35vh;
   position: fixed;
   left: 0vw;
   bottom: 0vw;
@@ -42,6 +80,19 @@ div.iNote2 {
   display: inline;
   justify-content: center;
   text-align: center;
+  font-size: 1.5vh;
+}
+
+div.iNote3 {
+  border: 0.5vw solid black;
+  border-style: dashed;
+  /* width: 35vw; */
+  text-align: center;
+  display: block;
+  justify-content: center;
+  align-items: center;
+  margin: 5vh 5vw;
+  font-size: 2vh;
 }
 
 button.iBack {
@@ -49,6 +100,18 @@ button.iBack {
   color: black;
   margin: 0vh 1vw;
   width: 41.984vw;
+  height: 7.94vh;
+  border: none;
+  cursor: pointer;
+  box-shadow: 3px 3px 5px grey;
+  font-size: 1.125rem;
+}
+
+button.iBack2 {
+  background-color: #ffffff;
+  color: black;
+  margin: 0vh 1vw;
+  width: 82.984vw;
   height: 7.94vh;
   border: none;
   cursor: pointer;

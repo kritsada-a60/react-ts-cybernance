@@ -4,6 +4,7 @@ import Main from './components/MainPage/main';
 import Main2 from './components/MainPage/main2';
 import Main3 from './components/MainPage/main3';
 import Main4 from './components/MainPage/main4';
+import Main5 from './components/MainPage/main5';
 import History from './components/HistoryPage/history';
 
 import './style.css';
@@ -16,7 +17,8 @@ export default function App() {
           <Route exact path="/" element={<Main />} />
           <Route exact path="/mainprice" element={<Main2 />} />
           <Route exact path="/mainpay" element={<Main3 />} />
-          <Route exact path="/selecttime" element={<Main4 />} />
+          <Route exact path="/mainqr" element={<Main4 />} />
+          <Route exact path="/mainfinish" element={<Main5 />} />
           <Route exact path="/history" element={<History />} />
         </Routes>
       </div>

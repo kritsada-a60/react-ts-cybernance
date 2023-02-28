@@ -18,10 +18,12 @@ const MainPage = () => {
   const navigate = useNavigate();
   const handleClick = () => navigate('/mainprice');
   return (
-    <div style={{ marginLeft: '5vw' }}>
-      <h1>Select Signal</h1>
-      <p>เลือกรูปแบบ Signal ที่คุณต้องการ</p>
-      <Dropdown options={options} placeholder="กรุณาเลือก" />
+    <div style={{ marginLeft: '0vw' }}>
+      <div style={{ marginLeft: '5vw' }}>
+        <h1>Select Signal</h1>
+        <p>เลือกรูปแบบ Signal ที่คุณต้องการ</p>
+        <Dropdown options={options} placeholder="กรุณาเลือก" />
+      </div>
       <div className="iBannerFix">
         <button className="iBack">กลับ</button>
         <button
