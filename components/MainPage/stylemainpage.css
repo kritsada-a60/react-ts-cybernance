@@ -108,8 +108,8 @@ button.iBack {
 }
 
 button.iBack2 {
-  background-color: #ffffff;
-  color: black;
+  background-color: #292929;
+  color: white;
   margin: 0vh 1vw;
   width: 82.984vw;
   height: 7.94vh;
@@ -120,7 +120,7 @@ button.iBack2 {
 }
 
 button.iNext {
-  background-color: #f8c854;
+  background-color: #292929;
   color: white;
   margin: 0vh 1vw;
   width: 41.984vw;
